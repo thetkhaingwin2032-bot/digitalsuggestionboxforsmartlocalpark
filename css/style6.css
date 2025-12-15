@@ -8,7 +8,7 @@
 
 nav{
     width: 100%;
-    background-color: #1A4314;
+    background-color: #A7C957;
     justify-content: space-between;
     display: flex;
     position: sticky;
@@ -33,12 +33,12 @@ nav{
     font-weight: 500;
     position: relative;
     font-size: 16px;
-    color: #F9F7F3;
+    color: #212121;
     transition: 0.3s;
 }
 .nav-link li a:hover{
     background-color: #ffb700;
-    color: #F9F7F3;
+    color: #212121;
     padding: 10px;
     transition: 0.4s;
     border-radius: 10px;
@@ -139,7 +139,7 @@ summary::marker {
 }
  
 summary::after {
-    content: "▶︎";
+    content: "▶";
     font-size: 10px;
     right: 18px;
     bottom: 1.5px;
@@ -153,10 +153,8 @@ details:hover{
     font-size: 18px;
     transition: 0.2s;
 }
-
-
 footer{
-    background-color: #1A4314;
+    background-color: #A7C957;
     padding: 50px;
 }
 .footer-container{
@@ -174,11 +172,11 @@ footer{
 .footer-items h2{
     padding-bottom: 20px;
     font-size: xx-large;
-    color: #F9F7F3;
+    color: #212121;
 }
 .footer-items p{
     padding-top: 10px;
-    color: #F9F7F3;
+    color: #212121;
     text-align: left;
 }
 .footer-items p:hover{
@@ -190,7 +188,7 @@ footer{
 }
 .footer-items a{
     padding-top: 10px;
-    color: #F9F7F3;
+    color: #212121;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: 5px;
@@ -199,13 +197,12 @@ footer{
     color: #FBC02D;
     transition: 0.3s ease-in-out;
 }
+.footer-items a i{
+    color: inherit;
+}
 .footer-items i{
     font-size: large;
     padding-left: 5px;
-}
-.footer-items i:hover{
-    color: #FBC02D;
-    transition: 0.3s ease-in-out;
 }
 .footer-items .fa-youtube{
     color: red;
@@ -222,4 +219,5 @@ footer{
 .footer-bottom{
     display: flex;
     justify-content: center;
+    color: #212121;
 }
