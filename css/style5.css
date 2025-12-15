@@ -7,7 +7,7 @@
 
 nav {
   width: 100%;
-  background-color: #1a4314;
+  background-color: #A7C957;
   justify-content: space-between;
   display: flex;
   position: sticky;
@@ -31,12 +31,12 @@ nav {
   font-weight: 500;
   position: relative;
   font-size: 16px;
-  color: #f9f7f3;
+  color: #212121;
   transition: 0.3s;
 }
 .nav-link li a:hover {
   background-color: #ffb700;
-  color: #f9f7f3;
+  color: #212121;
   padding: 10px;
   transition: 0.4s;
   border-radius: 10px;
@@ -121,9 +121,7 @@ form {
   flex-direction: column;
 }
 
-input,
-select,
-textarea {
+input,select,textarea {
   padding: 12px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -143,11 +141,11 @@ button {
 }
 
 button:hover {
-  background-color: #fbc02d;
+  background-color: #4caf50;
 }
 
 footer {
-  background-color: #1a4314;
+  background-color: #95b44d;
   padding: 50px;
 }
 .footer-container {
@@ -165,11 +163,11 @@ footer {
 .footer-items h2 {
   padding-bottom: 20px;
   font-size: xx-large;
-  color: #f9f7f3;
+  color: #212121;
 }
 .footer-items p {
   padding-top: 10px;
-  color: #f9f7f3;
+  color: #212121;
   text-align: left;
 }
 .footer-items p:hover {
@@ -181,7 +179,7 @@ footer {
 }
 .footer-items a {
   padding-top: 10px;
-  color: #f9f7f3;
+  color: #212121;
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 5px;
@@ -213,4 +211,5 @@ footer {
 .footer-bottom {
   display: flex;
   justify-content: center;
+  color: #212121;
 }
