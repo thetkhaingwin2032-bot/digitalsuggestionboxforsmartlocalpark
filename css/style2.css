@@ -14,9 +14,18 @@
 }
 .container h1{
     font-size: 50px;
+    background-color: #FBC02D;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
 }
 .container p{
     font-size: 23px;
+    font-weight: 600;
+    color: #2B6E21;
 }
 .img-box img{
     display: block;
@@ -63,7 +72,7 @@
     overflow: hidden;
     transition: 1s;
 }
-.card-content h1{
+.card-content h2{
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 10%;
@@ -72,7 +81,7 @@
 .card-btn{
     text-decoration: none;
     background-color: transparent;
-    border: 3px solid #4CAF50;
+    border: 3px solid #95b44d;
     color: #F9F7F3;
     font-size: 20px;
     padding: 15px 20px 15px 20px;
