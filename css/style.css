@@ -6,7 +6,7 @@
 }
 nav{
     width: 100%;
-    background-color: #D5E2BC;
+    background-color: #95b44d;
     justify-content: space-between;
     display: flex;
     position: sticky;
@@ -35,7 +35,7 @@ nav{
     transition: 0.3s;
 }
 .nav-link li a:hover{
-    background-color: #ffb700;
+    background-color: #FBC02D;
     color: #212121;
     padding: 10px;
     transition: 0.4s;
@@ -103,7 +103,7 @@ nav{
     border-radius: 15px;
     font-weight: bolder;
     transition: 0.3s;
-    background-color: #4CAF50;
+    background-color: #95b44d;
     border: none;
     z-index: 0.5;
     position: relative;
@@ -144,8 +144,14 @@ nav{
     text-align: center;
     color: #212121;
 }
+.home-content-box h1{
+    font-weight: 700;
+    padding: 10px;
+}
 .home-content-box h2{
     margin-bottom: 30px;
+    color: #2B6E21;
+    font-weight: 600;
 }
 .home-content-box .highlight-header{
     background-color: #FBC02D;
@@ -167,7 +173,8 @@ nav{
 }
 .home-card{
     border: 1px solid black;
-    width: 80%;
+    border-radius: 20px;
+    width: 70%;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .home-card img{
@@ -179,9 +186,9 @@ nav{
 
 }
 .home-card:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: 0.25s ease;
-    box-shadow: 0px 2px 30px black;
+    box-shadow: 0px 2px 5px black;
 }
 
 
@@ -288,10 +295,10 @@ nav{
     transition: 0.2s;
 }
 
-
 footer{
-    background-color: #D5E2BC;
+    background-color: #95b44d;
     padding: 50px;
+    color: #212121;
 }
 .footer-container{
     display: flex;
@@ -321,6 +328,7 @@ footer{
 }
 .footer-items i{
     font-size: -large;
+    color: #212121;
 }
 .footer-items a{
     padding-top: 10px;
@@ -333,13 +341,8 @@ footer{
     color: #FBC02D;
     transition: 0.3s ease-in-out;
 }
-.footer-items i{
-    font-size: large;
-    padding-left: 5px;
-}
-.footer-items i:hover{
-    color: #FBC02D;
-    transition: 0.3s ease-in-out;
+.footer-items a i{
+    color: inherit;
 }
 .footer-items .fa-youtube{
     color: red;
@@ -356,6 +359,11 @@ footer{
 .footer-bottom{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    color: #212121;
+}
+.footer-bottom span{
+    color: #212121;
 }
 .text-1 h2{
     font-family: "Tangerine", cursive;
@@ -425,7 +433,6 @@ details:hover{
 
 .content-ourstory{
     padding-left: 20px;
-    padding-bottom: 20px;
     /* background: url('../media/image/bgforabout.jpg') no-repeat; */
     background-color: white;
     opacity: 0.9;
