@@ -82,6 +82,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
 }
 .better-idea-forpark h2,
 p {
