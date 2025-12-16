@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+nav{
+    width: 100%;
+    background-color: #95b44d;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    z-index: 10;
+    align-items: center;
+}
+.nav-logo img{
+    width:180px;
+    padding-left: 100px;
+}
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+.nav-link li a{
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    font-size: 16px;
+    color: #212121;
+    transition: 0.3s;
+}
+.nav-link li a:hover{
+    background-color: #ffb700;
+    color: #212121;
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.active{
+    background-color: #FBC02D;
+    padding: 10px;
+    border-radius: 10px;
+    color: #212121;
+}
+
+.faq-content-main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+.faq-content{
+    display: flex;
+    gap: 100px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+.faq-t{
+    align-self: center;
+}
+.faq-t h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.faq-t p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.faq-img img{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+.faq-btn{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #95b44d;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #212121;
+    transform: scale(1);
+    transition: 0.3s;
+    display: inline-block;
+}
+.faq-btn:hover{
+    background-color: #4CAF50;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.faq-btn:active{
+    transform: 1.07;
+    transition: 0.4s;
+    background-color: #3a873d;
+}
+
+.FaqTab {
+    margin: 20px;
+    padding: 10px 20px;
+}
+ .text-1 h2{
+    text-align: center;
+ }
+.FaqTab p {
+    font-family: "Glory", sans-serif;
+    color: #ffee00;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: #2E7D32;
+    user-select: none;
+   
+}
+summary {
+    font-family: "Glory";
+    cursor: pointer;
+    color: #FFF59D;
+    list-style-type: none;
+    position: relative;
+    transition: 0.2s;
+    user-select: none;
+}
+ 
+details {
+    font-family: "Glory", sans-serif;
+    background: #3a873d;
+    padding:10px;
+    border-radius: 5px;
+    margin: 10px;
+    border-left: #12b81b 5px solid;
+    overflow: hidden;
+    transition: 0.3s;
+    user-select: none;
+}
+summary::marker {
+    display: none;
+}
+ 
+summary::after {
+    content: "▶";
+    font-size: 10px;
+    right: 18px;
+    bottom: 1.5px;
+    position: absolute;
+    transition: 0.3s ease;
+}
+details[open] summary::after {
+    transform: rotate(90deg);
+}
+details:hover{
+    transform: scale(1.005);
+    transition: 0.2s;
+}
+footer{
+    background-color: #95b44d;
+    padding: 50px;
+    color: #212121;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+}
+.footer-items h2{
+    padding-bottom: 20px;
+    font-size: xx-large;
+    color: #212121;
+}
+.footer-items p{
+    padding-top: 10px;
+    color: #212121;
+    text-align: left;
+    transition: 0.1s;
+}
+.footer-items p:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+}
+.footer-items i{
+    font-size: -large;
+}
+.footer-items a{
+    padding-top: 10px;
+    color: #212121;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footer-items a:hover{
+    color: #FBC02D;
+    transition: 0.3s ease-in-out;
+}
+.footer-items a i{
+    color: inherit;
+}
+.footer-items i{
+    font-size: large;
+    padding-left: 5px;
+}
+.footer-items .fa-youtube{
+    color: red;
+}
+.footer-items .fa-telegram{
+    color: #24A1de;
+}
+.footer-items .fa-viber{
+    color: #200e94;
+}
+.footer-items .fa-tikok{
+    color: white;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    color: #212121;
+     padding-top: 2%;
+}
+.footer-bottom span{
+    color: #212121;
+}
